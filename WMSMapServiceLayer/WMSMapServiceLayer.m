@@ -1,4 +1,4 @@
-//
+﻿//
 //  WMSMapServiceLayer.m
 //  FastIOSMap
 //
@@ -22,7 +22,7 @@
     self = [super init];
     if (self) {
         _spatialReference = fullEnvelope.spatialReference;
-        _fullEnvelope = fullEnvelope;
+        _fullEnvelope = fullEnvelope;  
         self.url = url;
         self.version = @"1.1.0";
         self.format = @"image/png";
